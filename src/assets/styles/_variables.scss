@@ -1,0 +1,68 @@
+$color-gray-1: #DFD8CF;
+$color-light-2: #F6EFE6;
+$color-scroll-thumb: $color-gray-1;
+$color-scroll-track: $color-light-2;
+
+:root {
+  --base-font: 'Open Sans';
+
+  --color-white: #FFFFFF;
+  --color-light-1: #FFF8EF;
+  --color-light-2: #F6EFE6;
+  --color-gray-1: #DFD8CF;
+  --color-gray-2: #D1CAC1;
+  --color-gray-3: #ACAAAD;
+  --color-gray-transparent: rgba(51, 51, 51, 0.16);
+  --color-brown-1: #876A68;
+  --color-brown-2: #9C4619;
+  --color-brown-3: #3C1F1D;
+  --color-brown-4: #3E1007;
+  --color-red-1: #FE4646;
+
+  --gradient-brown: linear-gradient(90deg, #64362D 0%, #82544B 100%);
+  --gradient-brown-2: linear-gradient(90deg, #572f27 0%, #643f37 100%);
+
+  /*semantic variables*/
+  --color-text-main: var(--color-brown-3);
+  --colot-text-inverse: var(--color-white);
+  --color-text-secondary: var(--color-brown-1);
+  --color-text-active: var(--color-brown-2);
+
+  --button-border-color: var(--color-brown-4);
+  --button-bg-color: var(--gradient-brown);
+  --button-text-color: var(--color-white);
+
+  --button-disabled-border-color: var(--color-gray-2);
+  --button-disabled-bg-color: var(--color-light-1);
+  --button-disabled-text-color: var(--color-brown-3);
+
+  --button-active-bg-color: var(--gradient-brown-2);
+
+  --input-border-color: var(--color-gray-transparent);
+  --input-focus-border-color: var(--color-text-secondary);
+  --input-invalid-border-color: var(--color-red-1);
+  --placeholder-color: var(--color-gray-3);
+
+  --color-separator: var(--color-gray-1);
+
+  --color-content-bg-1: var(--color-light-1);
+  --color-content-bg-2: var(--color-light-2);
+
+  --color-scroll-thumb: var(--color-gray-1);
+  --color-scroll-track: var(--color-light-1);
+
+  --color-background: var(--color-white);
+
+  --color-overlay: rgba(0, 0, 0, 0.32);
+
+  --box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.16);
+
+  --border-radius: 6px;
+
+  --font-size-base: 1rem;
+  --font-size-md: 1.5rem;
+  --font-size-sm: 0.875rem;
+  --font-size-xs: 0.75rem;
+
+  --transition: 0.15s;
+}

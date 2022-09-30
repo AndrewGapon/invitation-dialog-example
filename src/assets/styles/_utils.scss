@@ -1,0 +1,28 @@
+$text-sizes: (
+  xs,
+  sm,
+  base,
+  md,
+);
+
+$text-colors: (
+  main,
+  secondary,
+  active,
+);
+
+@each $size in $text-sizes {
+  .text-#{$size} {
+    font-size: var(--font-size-#{$size});
+  }
+}
+
+@each $color in $text-colors {
+  .text-#{$color} {
+    color: var(--color-text-#{$color});
+  }
+}
+
+.icon {
+  transition: var(--transition);
+}

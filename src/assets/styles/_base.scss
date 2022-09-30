@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+html {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: var(--base-font);
+}
+
+body {
+  color: var(--color-text-main);
+  background: var(--color-background);
+
+  &.no-scroll {
+    overflow: hidden;
+  }
+}
+
+button {
+  appearance: none;
+  border: none;
+  background: none;
+  outline: none;
+
+  &:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+input {
+  outline: none;
+}
